@@ -21,4 +21,4 @@ jobs:
     
   child:
     needs: build
-    uses: ./.github/workflows/sampleworkflow2.yaml@main
+    uses: ./.github/workflows/sampleworkflow2.yaml
