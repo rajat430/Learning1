@@ -22,3 +22,7 @@ jobs:
   child:
     needs: build
     uses: ./.github/workflows/sampleworkflow2.yaml
+
+  child2:
+    needs: [build,child]
+    uses: rajat430/childproj/.github/workflows/child1.yaml@main
