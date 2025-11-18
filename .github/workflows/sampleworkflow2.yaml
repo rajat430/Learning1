@@ -1,6 +1,6 @@
 name: workflow-sample2
 on:
-    workflow_call:
+    workflow_call
 jobs:  
   build:
     runs-on: ubuntu-latest
