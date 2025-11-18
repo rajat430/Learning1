@@ -25,4 +25,6 @@ jobs:
 
   child2:
     needs: [build,child]
-    uses: rajat430/childproj/.github/workflows/child1.yaml@main
+    uses: rajat430/childproj/.github/workflows/child1.yml@main
+    with:
+        name: "Rajat"
