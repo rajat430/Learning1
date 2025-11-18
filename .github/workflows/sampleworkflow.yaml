@@ -26,4 +26,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - run: echo "This is a child job running after build job"
-      - uses: rajat430/Learning1/sampleworkflow2.yaml@main
+      - uses: .github/workflows/sampleworkflow2.yaml
