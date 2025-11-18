@@ -16,5 +16,5 @@ jobs:
       - run: echo "This is a sample workflow"
       - run: |
             echo "Running some build steps..."
-            echo "${{variables.project_env}}"
+            echo "$project_env"
             echo "${{secrets.project_key}}"
