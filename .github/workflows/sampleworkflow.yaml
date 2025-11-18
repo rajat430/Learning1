@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - run: echo "This is a sample workflow"
       - run: |
-            echo "Running some build steps..."
+            echo "Running some build steps...."
             echo "${{vars.project_env}}"
             echo "${{secrets.project_key}}"
     
